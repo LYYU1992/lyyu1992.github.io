@@ -37,7 +37,8 @@ We can use the function as an input argument to another function:
 ```Python
 def function_2(function_1):
     q = function_1()
-    return q```
+    return q
+```
 
 
 Or we can also define a function and its output is actually a function as well:
@@ -111,7 +112,8 @@ We need first to name decorator, then define a wrap function as a inner function
 
 ```Python
 def movement_timer_decorator(function):
-    def wrapper_func():```
+    def wrapper_func():
+```
     
 Use `random.randint` to generate a random int from 1 to 3, this int will be the cooldown time between each movement, and use the `time.sleep` to set the sleep time from each function call.
 
@@ -123,7 +125,8 @@ def movement_timer_decorator(function):
         print("Pikachu will make a movement in ", skill_cooldown_time, "seconds")
         time.sleep(skill_cooldown_time)
         return function()
-    return wrapper_func```
+    return wrapper_func
+```
 
 
 
