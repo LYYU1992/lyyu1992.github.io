@@ -1,3 +1,12 @@
+---
+layout: post
+title: TestingAgain
+description: "test posting"
+tags: [sample post]
+author: Linyang Yu
+image:
+  background: triangular.png
+---
 
 # A special gift: decorating your function by wrapping it up!
 ## —brief introduction about function decorating in python
