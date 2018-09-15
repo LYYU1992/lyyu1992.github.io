@@ -1,6 +1,6 @@
 ---
 layout: post
-title: TestingAgain
+title: Function Decorator
 description: "test posting"
 tags: [sample post]
 author: Linyang Yu
